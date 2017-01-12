@@ -67,7 +67,7 @@ class
   int isPinAllocatedByDefault(unsigned int pin);
 
  private:
-  static pins_t pinTable[97];
+  static pins_t pinTable[153];
   static const char* strEdge[4];
   static GPIOConst* instance;
 };
